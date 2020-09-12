@@ -3,5 +3,5 @@ The Algorithm this program performs is basically as follows:
   Convert each atom's weight in grams to the number of moles of each atom
   It then detects what atom there will be the fewest of in the formula
   Using the atom above, it gets the ratio required to convert the atom to an integer (1/moles of the atom)
-  Then it checks each possible number in a range (I used 1-100 million) to see if using that number as a multiplier, the amount of each atom in the molecule will be an integer (or close enough to it) as desired.
+  Then it checks each possible number in a range (For real answers, you probably only need 1-100) to see for each multiple of the lowest number, if the amount of each other elements in the molecule will be an integer (or close enough to it) as desired.
   If the above goes well, the program will output a handy dandy formula which you can use to... why did I make this again?

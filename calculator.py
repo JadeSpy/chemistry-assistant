@@ -6,8 +6,8 @@ c:17.38
 h:2.65
 '''
 #Tweaking
-allowedUncertainty = 0.2 #Should be floating point
-outputAsRounded = False
+allowedUncertainty = 0.2 #The allowed difference between each number generated and the closest integer to it required for the answer to be validated.
+outputAsRounded = False #Want nice clean numbers?
 
 
 
